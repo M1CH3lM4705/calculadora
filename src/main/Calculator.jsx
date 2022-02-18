@@ -84,8 +84,8 @@ state = {...initialState}
                 <Button label="8" click={this.addDigit}/>
                 <Button label="9" click={this.addDigit}/>
                 <Button label="*" click={this.setOperation}operation/>
-                <Button label="5" click={this.addDigit}/>
                 <Button label="4" click={this.addDigit}/>
+                <Button label="5" click={this.addDigit}/>
                 <Button label="6" click={this.addDigit}/>
                 <Button label="-" click={this.setOperation}operation/>
                 <Button label="1" click={this.addDigit}/>

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Calculator from './main/Calculator';
 
@@ -9,6 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <h1>Calculadora</h1>
     <Calculator />
+    <h1>Michel Matos</h1>
   </React.StrictMode>,
   document.getElementById('root')
 );

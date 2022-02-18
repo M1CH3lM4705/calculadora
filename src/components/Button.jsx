@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 
 
-export default props => 
+const Button = (props) => 
     <button 
     onClick={e => props.click(props.label)}
     className={`
@@ -11,3 +11,6 @@ export default props =>
     ${props.double ? 'double': ''}
     ${props.triple ? 'triple': ''}
     `}>{props.label}</button>
+
+
+export default Button;
